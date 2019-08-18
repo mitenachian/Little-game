@@ -1,6 +1,3 @@
-const w = 1240;
-const h = 700;
-
 const config = {
     type: Phaser.AUTO,
     width: w,

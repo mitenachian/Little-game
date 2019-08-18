@@ -8,7 +8,6 @@ const gameStart = {
         this.load.image('bg5', '../images/bg/bg-5.png');
         this.load.spritesheet('user', 'images/player.png', {frameWidth: 309, frameHeight: 309});
         this.load.image('startbtn', '../images/go.png');
-        this.load.image('playAgainbtn', '../images/playAgain.png');
         this.load.image('startText', '../images/start-text.png');
     },
     create: function(){ // 載入遊戲物件完成相關設定
