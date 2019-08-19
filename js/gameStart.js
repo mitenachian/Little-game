@@ -1,14 +1,14 @@
 const gameStart = {
     key: 'gameStart',
     preload: function(){ // 載入資源
-        this.load.image('bg1', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/bg/bg-1.png');
-        this.load.image('bg2', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/bg/bg-2.png');
-        this.load.image('bg3', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/bg/bg-3.png');
-        this.load.image('bg4', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/bg/bg-4.png');
-        this.load.image('bg5', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/bg/bg-5.png');
-        this.load.spritesheet('user', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/player.png', {frameWidth: 309, frameHeight: 309});
-        this.load.image('startbtn', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/go.png');
-        this.load.image('startText', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/start-text.png');
+        this.load.image('bg1', '../images/bg/bg-1.png');
+        this.load.image('bg2', '../images/bg/bg-2.png');
+        this.load.image('bg3', '../images/bg/bg-3.png');
+        this.load.image('bg4', '../images/bg/bg-4.png');
+        this.load.image('bg5', '../images/bg/bg-5.png');
+        this.load.spritesheet('user', 'images/player.png', {frameWidth: 309, frameHeight: 309});
+        this.load.image('startbtn', '../images/go.png');
+        this.load.image('startText', '../images/start-text.png');
     },
     create: function(){ // 載入遊戲物件完成相關設定
        this.bg1 = this.add.tileSprite(w/2, h/2, w, h, 'bg1');
