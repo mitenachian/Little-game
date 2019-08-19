@@ -9,7 +9,7 @@ const config = {
             gravity: {
                 y: 0
             },
-            debug: true, // 碰撞範圍
+            //debug: true, // 碰撞範圍
         },
     },
     scene: [  gamePlay, gameStart ]
