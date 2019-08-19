@@ -1,14 +1,14 @@
 const gameStart = {
     key: 'gameStart',
     preload: function(){ // 載入資源
-        this.load.image('bg1', '/Little-game/images/bg/bg-1.png');
-        this.load.image('bg2', '/Little-game/images/bg/bg-2.png');
-        this.load.image('bg3', '/Little-game/images/bg/bg-3.png');
-        this.load.image('bg4', '/Little-game/images/bg/bg-4.png');
-        this.load.image('bg5', '/Little-game/images/bg/bg-5.png');
+        this.load.image('bg1', 'images/bg/bg-1.png');
+        this.load.image('bg2', 'images/bg/bg-2.png');
+        this.load.image('bg3', 'images/bg/bg-3.png');
+        this.load.image('bg4', 'images/bg/bg-4.png');
+        this.load.image('bg5', 'images/bg/bg-5.png');
         this.load.spritesheet('user', 'images/player.png', {frameWidth: 309, frameHeight: 309});
-        this.load.image('startbtn', '/Little-game/images/go.png');
-        this.load.image('startText', '/Little-game/images/start-text.png');
+        this.load.image('startbtn', 'images/go.png');
+        this.load.image('startText', 'mages/start-text.png');
     },
     create: function(){ // 載入遊戲物件完成相關設定
        this.bg1 = this.add.tileSprite(w/2, h/2, w, h, 'bg1');
