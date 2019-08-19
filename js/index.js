@@ -12,7 +12,7 @@ const config = {
             //debug: true, // 碰撞範圍
         },
     },
-    scene: [  gamePlay, gameStart ]
+    scene: [  gameStart, gamePlay ]
     // 場景切換遊戲顯示狀態, Ex: 遊戲開始,遊戲進行中, 遊戲結束
 }
 
