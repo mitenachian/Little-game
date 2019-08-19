@@ -4,20 +4,20 @@ const getRandom = (max, min) =>{
 const gamePlay = {
     key: 'gamePlay',
     preload: function(){ // 載入資源
-        this.load.image('bg1', '../images/bg/bg-1.png');
-        this.load.image('bg2', '../images/bg/bg-2.png');
-        this.load.image('bg3', '../images/bg/bg-3.png');
-        this.load.image('bg4', '../images/bg/bg-4.png');
-        this.load.image('bg5', '../images/bg/bg-5.png');
-        this.load.image('stone1', '/images/Stone1.png');
-        this.load.image('stone2', '/images/Stone2.png');
-        this.load.image('stone3', '/images/Stone1.png');
-        this.load.image('planet1', '/images/Planet1.png');
-        this.load.image('planet2', '/images/Planet2.png');
-        this.load.image('success', '../images/m_Success.png');
-        this.load.image('gameOver', '../images/gameover-text.png');
-        this.load.image('playAgainbtn', '../images/playAgain.png');
-        this.load.spritesheet('user', 'images/player.png', {frameWidth: 309, frameHeight: 309});
+        this.load.image('bg1', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/bg/bg-1.png');
+        this.load.image('bg2', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/bg/bg-2.png');
+        this.load.image('bg3', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/bg/bg-3.png');
+        this.load.image('bg4', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/bg/bg-4.png');
+        this.load.image('bg5', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/bg/bg-5.png');
+        this.load.image('stone1', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/Stone1.png');
+        this.load.image('stone2', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/Stone2.png');
+        this.load.image('stone3', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/Stone1.png');
+        this.load.image('planet1', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/Planet1.png');
+        this.load.image('planet2', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/Planet2.png');
+        this.load.image('success', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/m_Success.png');
+        this.load.image('gameOver', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/gameover-text.png');
+        this.load.image('playAgainbtn', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/playAgain.png');
+        this.load.spritesheet('user', 'https://github.com/mitenachian/Little-game/tree/gh-pages/images/player.png', {frameWidth: 309, frameHeight: 309});
         // 相關遊戲設定
         this.timeInt = 90; // 時間
         this.speedLv = 2; // 速度控制
